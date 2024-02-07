@@ -1,0 +1,30 @@
+body {
+    font-family:  Tahoma, Geneva, Verdana, sans-serif;
+    font-style: 16px;
+    color: #333;
+}
+
+header {
+    background-color: green;
+}
+
+main {
+    background-color: skyblue;
+}
+
+h1 {
+    font-weight: bold;
+    background-color: pink;
+}
+
+p {
+    background-color: #eee;
+}
+
+nav {
+    background-color: antiquewhite;
+}
+
+footer {
+    background-color: red;
+}

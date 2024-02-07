@@ -1,0 +1,19 @@
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 10px;
+    color: white;
+    background: url(../../../../../images/pattern.png) center center repeat, url(../../../../../images/blossom.jpg) center no-repeat; 
+}
+
+p:nth-of-type(3) {
+    background-image: url(../../../../../images/fire.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+}
+
+h1 {
+    background-color: #525151;
+    font-weight: bold;
+    font-style: center;
+}
