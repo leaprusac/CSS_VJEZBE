@@ -1,0 +1,158 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    background: url(../../../images/blur-clean.jpg) center center, repeat;
+
+  }
+
+  h1 {
+    text-align: center;
+  }
+  
+  .wrapper {
+    text-align: center;
+  }
+  
+    .wrapper div {
+    background: #333;
+    opacity: 60%;
+    border: 5px solid white;
+    border-radius: 0%;
+    display: inline-block;
+    font-size: 5em;
+    line-height: 250px;
+    width: 320px;
+    height: 250px;
+    margin: 60px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    text-align: center;
+    position: relative;
+  }
+
+  
+
+  @-webkit-keyframes animacijaC {
+    0% {
+      top: -500px;
+    }
+    70% {
+       top: 15px;
+    }
+    85% {
+        top: -10px;
+    }
+    100% {
+      bottom: 0px;
+    }
+  }
+  
+  @keyframes animacijaC {
+    0% {
+      top: -500px;
+    }
+    70% {
+        top: 15px
+    }
+    85% {
+      top: -10px;
+    }
+    100% {
+        bottom: 0px;
+    }
+  }
+
+  div:first-of-type {
+    -webkit-animation: animacijaC  1.5s ease-out ;
+    animation: animacijaC  1.5s ease-out ;
+    animation-delay: 1.5s;
+  }
+
+
+  @-webkit-keyframes animacijaS {
+    0% {
+      top: -500px;
+      background: red
+    }
+    70% {
+       top: 15px;
+    }
+    85% {
+        top: -10px;
+    }
+    100% {
+      bottom: 0px;
+    }
+  }
+  
+  @keyframes animacijaS {
+    0% {
+      top: -500px;
+      background: red;
+    }
+    70% {
+        top: 15px;
+    }
+    85% {
+      top: -10px;
+    }
+    100% {
+        bottom: 0px;
+    }
+  }
+
+  div:nth-of-type(2) {
+    -webkit-animation: animacijaS  1.5s ease-out ;
+    animation: animacijaS  1.5s ease-out ;
+    animation-delay: 3s;
+
+  }
+
+
+  @-webkit-keyframes animacijaL {
+    0% {
+      top: -500px;
+      background: orange;
+
+    }
+    70% {
+       top: 15px;
+    }
+    85% {
+        top: -10px;
+    }
+    100% {
+      bottom: 0px;
+    }
+  }
+  
+  @keyframes animacijaL {
+    0% {
+      top: -500px;
+      background: orange;
+      
+    }
+    70% {
+        top: 15px;
+    }
+    85% {
+      top: -10px;
+    }
+    100% {
+        bottom: 0px;
+    }
+  }
+
+  div:nth-of-type(3) {
+    -webkit-animation: animacijaL  1.5s ease-out;
+    animation: animacijaL  1.5s ease-out;
+    animation-delay: 4.5s;
+
+  }
