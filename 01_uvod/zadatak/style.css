@@ -1,0 +1,302 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  
+  .wrapper {
+    text-align: center;
+  }
+  
+    .wrapper div {
+    background-color: #3b17de;
+    border: 12px solid #ff0000;
+    border-radius: 100%;
+    display: inline-block;
+    font-size: 2.5em;
+    line-height: 75px;
+    width: 100px;
+    height: 100px;
+    margin: -102px;
+    margin-top: 300px;
+    margin-bottom: 300px;
+    text-align: center;
+    position: relative;
+  }
+
+  @-webkit-keyframes animacijaA {
+    0% {
+      bottom: -500px;
+    }
+    70% {
+       bottom: 15px;
+    }
+    85% {
+        bottom: -10px;
+    }
+    100% {
+      top: 0px;
+    }
+  }
+  
+  @keyframes animacijaA {
+    0% {
+      bottom: -500px;
+    }
+    70% {
+        bottom: 15px
+    }
+    85% {
+      bottom: -10px;
+    }
+    100% {
+        top: 0px;
+    }
+  }
+  
+  div:nth-of-type(7) {
+    -webkit-animation: animacijaA  4s infinite ;
+    animation: animacijaA  4s infinite ;
+    animation-delay: 0.2s;
+  }
+
+  @-webkit-keyframes animacijaR {
+    0% {
+      bottom: -500px;
+    }
+    70% {
+       bottom: 15px;
+    }
+
+    85% {
+        bottom: -10px;
+    }
+    100% {
+      top: 0px;
+    }
+  }
+  
+  @keyframes animacijaR {
+    0% {
+      bottom: -500px;
+    }
+    70% {
+        bottom: 15px
+    }
+    85% {
+      bottom: -10px;
+    }
+    100% {
+        top: 0px;
+    }
+  }
+
+  div:nth-of-type(6) {
+    -webkit-animation: animacijaR  4s infinite ;
+    animation: animacijaR  4s infinite ;
+    animation-delay: 0.4s;
+ 
+  }
+
+
+  @-webkit-keyframes animacijaB {
+    0% {
+      bottom: -500px;
+    }
+    70% {
+       bottom: 15px;
+    }
+
+    85% {
+        bottom: -10px;
+    }
+    100% {
+      top: 0px;
+    }
+  }
+  
+  @keyframes animacijaB {
+    0% {
+      bottom: -500px;
+    }
+    70% {
+        bottom: 15px
+    }
+    85% {
+      bottom: -10px;
+    }
+    100% {
+        top: 0px;
+    }
+  }
+
+  div:nth-of-type(5) {
+    -webkit-animation: animacijaA 4s infinite ;
+    animation: animacijaA 4s infinite ;
+    animation-delay: 0.6s;
+  }
+
+  @-webkit-keyframes animacijaE {
+    0% {
+      bottom: -500px;
+    }
+    70% {
+       bottom: 15px;
+    }
+
+    85% {
+        bottom: -10px;
+    }
+    100% {
+      top: 0px;
+    }
+  }
+  
+  @keyframes animacijaE {
+    0% {
+      bottom: -500px;
+    }
+    70% {
+        bottom: 15px
+    }
+    85% {
+      bottom: -10px;
+    }
+    100% {
+        top: 0px;
+    }
+  }
+
+  div:nth-of-type(4) {
+    -webkit-animation: animacijaE 4s infinite ;
+    animation: animacijaE 4s infinite ;
+    animation-delay: 0.8s;
+  }
+
+  @-webkit-keyframes animacijaG {
+    0% {
+      bottom: -500px;
+    }
+    70% {
+       bottom: 15px;
+    }
+
+    85% {
+        bottom: -10px;
+    }
+    100% {
+      top: 0px;
+    }
+  }
+  
+  @keyframes animacijaG {
+    0% {
+      bottom: -500px;
+    }
+    70% {
+        bottom: 15px
+    }
+    85% {
+      bottom: -10px;
+    }
+    100% {
+        top: 0px;
+    }
+  }
+
+  div:nth-of-type(3) {
+    -webkit-animation: animacijaG 4s infinite ;
+    animation: animacijaA 4s infinite ;
+    animation-delay: 1s;
+  }
+
+  @-webkit-keyframes animacijaL {
+    0% {
+      bottom: -500px;
+    }
+    70% {
+       bottom: 15px;
+    }
+
+    85% {
+        bottom: -10px;
+    }
+    100% {
+      top: 0px;
+    }
+  }
+  
+  @keyframes animacijaL {
+    0% {
+      bottom: -500px;
+    }
+    70% {
+        bottom: 15px
+    }
+    85% {
+      bottom: -10px;
+    }
+    100% {
+        top: 0px;
+    }
+  }
+
+  div:nth-of-type(2) {
+    -webkit-animation: animacijaL 4s infinite ;
+    animation: animacijaA 4s infinite ;
+    animation-delay: 1.2s;
+  }
+
+  @-webkit-keyframes animacijaA {
+    0% {
+      bottom: -500px;
+    }
+    70% {
+       bottom: 15px;
+    }
+
+    85% {
+        bottom: -10px;
+    }
+    100% {
+      top: 0px;
+    }
+  }
+  
+  @keyframes animacijaA {
+    0% {
+      bottom: -500px;
+    }
+    70% {
+        bottom: 15px
+    }
+    85% {
+      bottom: -10px;
+    }
+    100% {
+        top: 0px;
+    }
+  }
+
+  div:first-of-type {
+    -webkit-animation: animacijaA 4s infinite ;
+    animation: animacijaA 4s infinite ;
+    animation-delay: 1.4s;
+    
+  }
+
+
+
+
+
+
